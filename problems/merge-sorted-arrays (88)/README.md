@@ -27,5 +27,6 @@ The reason I didn't go with this was because this solution was that it was too c
 ## Result
 ---------
 
-### Runtime: `59ms`
-### Memory Usage: `52.1 MB`
+#### Javascript
+#### Runtime: `59ms`
+#### Memory Usage: `52.1 MB`
