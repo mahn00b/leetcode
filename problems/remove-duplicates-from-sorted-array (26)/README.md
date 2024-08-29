@@ -33,7 +33,7 @@ If all assertions pass, then your solution will be **accepted**.
 
 ## Solution
 ----------
-The solution for this problem is a variation of the simpler version of the "overwriting" solution described in [problem 27](obsidian://open?vault=neurons&file=leetcode%2FRemove%20Duplicates%20from%20Sorted%20Array%2FRemove%20Duplicates%20from%20Sorted%20Array)
+The solution for this problem is a variation of the simpler version of the "overwriting" solution described in [problem 27](../remove-element%20(27)/)
 
 Building upon that previous description, this is a very similar case, with the exception that there will be more than one kind of value to remove.
 
