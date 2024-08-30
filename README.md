@@ -17,11 +17,25 @@ Initially, I want to keep the layout fairly simple, but later on, I have plans t
       | solution.js
       | solution.py
       | solution.java
+| algorithms
+  | [use case]
+    | [algorithm-name]
+      | README.md
 ```
+
+### problems
 
 Each problem will have it's own directory, along with a README that includes links to the original leetcode page, the exact problem statement, the constraints, and finally the thought process around my solution.
 
-Each directory will have the dictated solution written in multiple languages. I believe this will help me learn new languages and solidify the solutions as concepts more than memorized code. Though, it may very much be the case that each problem will initially only have a javascript solution.
+Each directory will have the dictated solution written in multiple languages. This will help with learning new languages and solidify the solutions as concepts more than memorized code. Though, it may very much be the case that each problem will initially only have a javascript solution.
+
+### algorithms
+
+When new problems require a solution that introduces a new algorithm, there will be a new entry created in the algorithms directory. Initially, each write-up will include descriptions, runtime complexity, links to references, drawbacks of using the algorithm, and some psuedo-code for an illustrative description.
+
+There will also be a general README to reference all the algorithms in one place.
+
+Each problem that uses a specific algorithm from this directory will reference the same README.md for convenience.
 
 
 ## Future plans
