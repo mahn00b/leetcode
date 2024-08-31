@@ -1,5 +1,6 @@
 # Best Time to Buy & Sell Stock
 
+
 ## Problem
 -------------------------------------
 [Leetcode Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
@@ -16,11 +17,9 @@ Return _the maximum profit you can achieve from this transaction_. If you canno
 
 ## Solution
 ------------
-###### Preface
-Before I begin describing the solution I went with, it's worth mentioning that there is there is another solution that leverages [Kandane's Algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm) to solve this as a maximum subarray problem. Worth noting for future iterations of this solution.
+> Before I begin describing the solution I went with, it's worth mentioning that there is there is another solution that leverages [Kandane's Algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm) to solve this as a maximum subarray problem. Worth noting for future iterations of this solution.
 
-### Approach
-
+##### Intuition
 For this solution, we'll take a greedy approach to a solution design. Every greedy approach starts with making a few assumptions, so we'll state ours:
 
 - The best time to buy stock is the lowest price of the stock.
@@ -44,3 +43,4 @@ Using these two assumptions we can design a greedy algorithm that will aim to bu
 #### Javascript
 #### Runtime - `84ms`
 ##### Memory - `58.9MB`
+
